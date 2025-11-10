@@ -11,33 +11,38 @@
  .logo {height: 120px;
         padding-right: 20px;
         padding-left: 50px;
+       
         }
+
+a       {display: flex;
+        flex-direction: row;
+        justify-content: center;}
 
  .searchbar {height: 40px;
             flex: 1;
-        padding-left: 10px;}
+            padding-left: 10px;}
+
         
-.sel {height: 40px;
+.selectCategory {height: 40px;
         outline: none;
         color: rgb(84, 83, 83);
         padding-left: 10px;
         padding-right: 10px;}       
 
-.cat {display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        outline: solid black 1px;
-        height: 40px;}
         
 
 .btn {height: 30px;
       margin-right: 20px; 
       color: rgb(84, 83, 83);
-       
        }
+       
 .sign {padding-left: 50px;
         padding-right: 70px;}
+
+.cart {display: flex;
+        flex-direction: row;
+        width: .3em;}
+
 .navbar {
         display: flex;
         gap: 20px;
@@ -51,12 +56,28 @@
         padding-bottom: 10px;
         position: sticky;
         top: 0;
+        align-items: center;
+     
 }
 
-a {text-decoration: none;
+.socials {display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 32.6rem;
+        gap: 1em;}
+
+
+
+.navlink {text-decoration: none;
    color: lightgray;}
 
-a:hover {color: #56b7e5;}
+.sociallink {color: lightgray;
+             text-decoration: none;}
+
+.sociallink:hover {color: #ffffff;}
+
+.navlink:hover {color: #ffffff;}
 
 #sign {
         background: none;
@@ -64,7 +85,7 @@ a:hover {color: #56b7e5;}
         padding: 30px;
 }
 
-#sign:hover {color: #1C377F;}
+#sign:hover {color: #808080;}
 
 
 
