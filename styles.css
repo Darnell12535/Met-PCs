@@ -5,6 +5,7 @@
          height: 100px;
          margin-bottom: 15px;
          padding-top: 10px;
+         flex: 1;
          
  }  
  
@@ -148,3 +149,47 @@ flex-direction: column;}
 
 #address {color: aliceblue;
                 margin-top: 0;}
+
+@media (max-width: 768px) {
+        .search {width: 90vw;
+              
+                }
+        .selectCategory {width: 2vw;}
+        
+        .logo {height: 0;
+                padding-left: 0;
+                margin: 0;
+                        
+                }
+
+        #sign {padding-left: 2vw;
+                padding-right: 0;}
+        
+        .searchbar {padding-right: 20vw;
+                        margin-left: 1vw;}
+
+        #home {width: 0;}
+
+        .item {height: 20vh;
+       padding: auto; 
+        }
+
+        .title {font-size: 3em;
+                position: relative;
+                z-index: 1;
+                }
+
+        .tagline {font-size: 1.3em;
+                        padding-bottom: 5vh;}
+
+        .navbar {padding-bottom: 0;
+                }
+        
+        .socials {padding: 0;}
+
+        #sign {margin-right: 0vw;
+                padding-right: 0;}
+       
+       }
+
+       
