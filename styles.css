@@ -108,8 +108,29 @@ a       {display: flex;
         font-size: 2.1em;
         margin-top: 0;
         color: #56b7e5;
-        padding-bottom: 100px;
+        padding-bottom: 30px;
       }
+
+.gallery1 {display: flex;
+         flex-direction: row;
+         justify-content: center;
+        }
+
+#leftbutton {width: 0;
+height: 0;
+border-top: 10px solid transparent;
+border-bottom: 10px solid transparent;
+border-right: 10px solid lightgray;
+align-self: center;}
+
+#rightbutton {
+background: none;
+width: 0;
+height: 0;
+border-top: 10px solid transparent;
+border-bottom: 10px solid transparent;
+border-left: 10px solid lightgray;
+align-self: center;}
 
 .gallery {
         display: flex;
