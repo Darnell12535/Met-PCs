@@ -6,11 +6,11 @@ document.getElementById("sign").addEventListener("click", function() {
 
   function FirstImage()
 {
-  myImage.src="images/shop.png";
+  myImage.src="images/setup1.jpg";
 }
 
 function SecondImage()
 {
-  myImage.src="images/building pc.png";
+  myImage.src="images/setup3.avif";
 }
 

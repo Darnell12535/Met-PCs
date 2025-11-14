@@ -95,6 +95,7 @@ a       {display: flex;
        }
 
 .title {font-size: 4.8em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         color: #1C377F;
         text-align: center;
         font-weight: bold;
@@ -102,11 +103,13 @@ a       {display: flex;
         padding-bottom: 0;
         margin-bottom: 0;
         margin-top: 50px;
+        
        }
 
 .tagline {text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 2.1em;
-        margin-top: 0;
+        margin-top: -10px;
         color: #56b7e5;
         padding-bottom: 30px;
       }
@@ -114,23 +117,15 @@ a       {display: flex;
 .gallery1 {display: flex;
          flex-direction: row;
          justify-content: center;
+         margin-bottom: 10rem;
         }
 
-#leftbutton {width: 0;
-height: 0;
-border-top: 10px solid transparent;
-border-bottom: 10px solid transparent;
-border-right: 10px solid lightgray;
-align-self: center;}
+#leftbutton {background: none;
+        border: 0;}
 
 #rightbutton {
 background: none;
-width: 0;
-height: 0;
-border-top: 10px solid transparent;
-border-bottom: 10px solid transparent;
-border-left: 10px solid lightgray;
-align-self: center;}
+border: 0;}
 
 .gallery {
         display: flex;
@@ -210,7 +205,18 @@ flex-direction: column;}
 
         #sign {margin-right: 0vw;
                 padding-right: 0;}
-       
+
+        .gallery1 {display: flex; 
+                 
+                 
+                  
+        }
+
+        #imageid {width: 70vw;
+                  height: 50vh;
+                }
+
+      
        }
 
        
