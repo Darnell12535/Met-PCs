@@ -181,12 +181,12 @@ flex-direction: column;}
         #sign {padding-left: 2vw;
                 padding-right: 0;}
         
-        .searchbar {padding-right: 20vw;
+        .searchbar {padding-right: 10vw;
                         margin-left: 1vw;}
 
         #home {width: 0;}
 
-        .item {height: 20vh;
+        .item {height: 10vh;
        padding: auto; 
         }
 
@@ -201,7 +201,10 @@ flex-direction: column;}
         .navbar {padding-bottom: 0;
                 }
         
-        .socials {padding: 0;}
+        .socials {padding: 0;
+                position: sticky;
+                margin-top: 0;
+                z-index: -1;}
 
         #sign {margin-right: 0vw;
                 padding-right: 0;}
@@ -213,7 +216,7 @@ flex-direction: column;}
         }
 
         #imageid {width: 70vw;
-                  height: 50vh;
+                  height: 30vh;
                 }
 
       
