@@ -127,8 +127,8 @@ a       {display: flex;
          background-color: #1C377F;
         }
 
-#imageid {height: 400;
-         width: 600;}
+#imageid {height: 400px;
+         width: 600px;}
 
 #leftbutton {background: none;
         color: azure;
@@ -187,7 +187,9 @@ flex-direction: column;}
                   height: 2em;
                   top: 0;
                   z-index: 1;
-                 
+                  margin-top: -10px;
+                  margin-left: -10px;
+                  margin-right: -10px;
      }
 
         #mobilelink {background-color: #1C377F;
@@ -199,7 +201,10 @@ flex-direction: column;}
                 justify-content: flex-start;
                 align-items: center;
                 text-align: left;
+                margin-top: -10px;
+                
                  }
+
 
         #burger {display: flex;
                 flex: 1;
@@ -230,22 +235,26 @@ flex-direction: column;}
         .title {font-size: 3em;
                 position: relative;
                 z-index: 1;
+                margin-top: 4vw;
+                width: 100vw;
                 }
 
         .tagline {font-size: 1.3em;
-                        padding-bottom: 5vh;}
+                  margin-bottom: 4vw;
+                   width: 100vw;}
 
         .navbar {overflow: scroll;
                 flex-wrap: nowrap;
                 flex-direction: row;
                 white-space: nowrap;
-                padding-right: .6em;
-                padding-left: .6em;
+                margin-left: -10px;
+                margin-right: -10px;
                 padding-top: .1em;
                 padding-bottom: 1.2em;
                 margin-top: 3em;
                 background-color: white;
                 position: static;
+                padding-left: .5em;
                 }
         .search {display: none;}
 
@@ -262,25 +271,29 @@ flex-direction: column;}
                 padding-right: 0;}
 
         .gallery1 {display: flex; 
-                   background-color: rgb(66, 64, 64) ;
+                   background-color:#1C377F;
                    position: static;
-                 
-                 }
+                   width: 100vw;
+                   margin-left: -10px;
+                   margin-right: -10px;
+                   
+                   }
 
-        #rightbutton {position: absolute;
+        #imageid { width: 100%;
+                   }
+
+        #rightbutton {position: relative;
                       top: 50%;
                       right: 5%;
                      
                      }
 
-         #leftbutton {position: absolute;
-                      top: 50%;
+         #leftbutton {position: relative;
+                      top:50%;
                       left: 5%;
                      }
 
-        #imageid {width: 70vw;
-                  height: 30vh;
-                }
+       
 
         .socials {display: none;
                   }
@@ -294,8 +307,7 @@ flex-direction: column;}
                  
         .navlink:active {color: whitesmoke;}
 
-        #imageid {width: 100vw;
-                  height: 70vw;}
+       
 
         #mhome {visibility: visible;
                 width: 100%;}
