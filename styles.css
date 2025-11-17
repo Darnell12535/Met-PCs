@@ -66,7 +66,19 @@ a       {display: flex;
         flex-direction: row;
         align-items: center;
         padding-left: 32.6rem;
-        gap: 1em;}
+        gap: 1em;
+        padding-right: 2em;}
+
+#faq {display:flex;
+      flex:1;
+        justify-content: flex-start;}
+
+h2 {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+text-align: center;
+font-size:3em;
+margin-bottom: 2em;
+color: #56b7e5;}
 
 
 
@@ -115,7 +127,6 @@ a       {display: flex;
 .tagline {text-align: center;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 2.1em;
-        margin-top: -10px;
         color: #56b7e5;
         padding-bottom: 30px;
       }
@@ -159,7 +170,7 @@ height: 100;}
        padding: auto; 
         }
 
-#price {color: brown;}
+#price {color: #56b7e5;}
 
 .footer { 
 background-color: #1C377F;;
@@ -182,26 +193,30 @@ flex-direction: column;}
 
 @media (max-width: 768px) {
 
+        body {width: 384px;
+                margin: 0;
+                padding: 0;}
+
         .mobilenav {visibility: visible;
                   position: sticky;
                   height: 2em;
                   top: 0;
                   z-index: 1;
-                  margin-top: -10px;
-                  margin-left: -10px;
-                  margin-right: -10px;
-     }
+                  width: 384px;
+                  margin-top: 0;
+                       }
 
         #mobilelink {background-color: #1C377F;
-                 color: #ffffff;
-                padding: 1em;
+                color: #ffffff;
+                padding-top: 1em;
+                 padding-bottom: 1em;
                 display: flex;
                 flex-direction: row;
                 gap: 1em;
                 justify-content: flex-start;
                 align-items: center;
                 text-align: left;
-                margin-top: -10px;
+                width: 384px;
                 
                  }
 
@@ -214,6 +229,8 @@ flex-direction: column;}
         
         .search {width: 90vw;
               }
+
+        #cart {padding-right: 1em;}
         .selectCategory {width: 2vw;}
         
         .logo, #home {display: none;
@@ -236,27 +253,28 @@ flex-direction: column;}
                 position: relative;
                 z-index: 1;
                 margin-top: 4vw;
-                width: 100vw;
+                width: 384px;
                 }
 
         .tagline {font-size: 1.3em;
                   margin-bottom: 4vw;
-                   width: 100vw;}
+                   width: 384px;}
 
         .navbar {overflow: scroll;
                 flex-wrap: nowrap;
                 flex-direction: row;
                 white-space: nowrap;
-                margin-left: -10px;
-                margin-right: -10px;
-                padding-top: .1em;
+                
                 padding-bottom: 1.2em;
-                margin-top: 3em;
+             
                 background-color: white;
                 position: static;
-                padding-left: .5em;
+                width: 384px;
+                margin-left: 0;
+                padding-left: 0;
                 }
-        .search {display: none;}
+        
+                .search {display: none;}
 
         .navbar::-webkit-scrollbar {
                 display: none; 
@@ -270,16 +288,26 @@ flex-direction: column;}
               #sign {margin-right: 0vw;
                 padding-right: 0;}
 
+        h2 {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           text-align: center;
+           font-size: 2em;
+           margin-bottom: 1em;
+           color: #56b7e5;
+           margin-top: 0;
+           padding-top:0;
+           width:384px;}
+
         .gallery1 {display: flex; 
                    background-color:#1C377F;
                    position: static;
-                   width: 100vw;
-                   margin-left: -10px;
-                   margin-right: -10px;
+                   width: 384px;
+                   padding-bottom: 0;
+                   margin-bottom: 4em;
+                   
                    
                    }
 
-        #imageid { width: 100%;
+        #imageid { width: 384px;
                    }
 
         #rightbutton {position: relative;
@@ -302,8 +330,10 @@ flex-direction: column;}
                   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                  font-weight: lighter;
                  font-size: large;
-                  border-right: solid 1px black;
-                  padding-right: 1em;}    
+                 border-right: solid 1px black;
+                 width: 384px;
+                 padding-right: 2em;
+                }    
                  
         .navlink:active {color: whitesmoke;}
 
@@ -312,6 +342,11 @@ flex-direction: column;}
         #mhome {visibility: visible;
                 width: 100%;}
                 
+        .label {width: 150px;
+                overflow: hidden;
+                height: 20px;}
+
+        .group {width:150px;}
        
         }
 
