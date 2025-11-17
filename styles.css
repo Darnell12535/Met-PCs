@@ -267,7 +267,6 @@ flex-direction: column;}
                 white-space: nowrap;
                 padding-top: 2.2em;
                 padding-bottom: 1.2em;
-             
                 background-color: white;
                 position: static;
                 width: 384px;
@@ -347,8 +346,11 @@ flex-direction: column;}
                 overflow: hidden;
                 height: 20px;}
 
-        .group {width:150px;}
+        .group {width:150px;
+        }
        
         }
 
+
+       
        
