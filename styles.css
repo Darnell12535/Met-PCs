@@ -204,7 +204,8 @@ flex-direction: column;}
                   top: 0;
                   z-index: 1;
                   width: 384px;
-                  margin-top: 0;
+                  margin-top: -18px;
+                  
                        }
 
         #mobilelink {background-color: #1C377F;
@@ -265,7 +266,7 @@ flex-direction: column;}
                 flex-wrap: nowrap;
                 flex-direction: row;
                 white-space: nowrap;
-                padding-top: 2.2em;
+                padding-top: 3em;
                 padding-bottom: 1.2em;
                 background-color: white;
                 position: static;
@@ -277,6 +278,11 @@ flex-direction: column;}
                 .search {display: none;}
 
         .navbar::-webkit-scrollbar {
+                display: none; 
+        }
+
+        
+        .label::-webkit-scrollbar {
                 display: none; 
         }
         
@@ -300,14 +306,15 @@ flex-direction: column;}
         .gallery1 {display: flex; 
                    background-color:#1C377F;
                    position: static;
-                   width: 384px;
                    padding-bottom: 0;
                    margin-bottom: 4em;
+                   
                    
                    
                    }
 
         #imageid { width: 384px;
+                   height: 290px;
                    }
 
         #rightbutton {position: relative;
@@ -326,28 +333,49 @@ flex-direction: column;}
         .socials {display: none;
                   }
         
-        .navlink {color: #616161;
+        .navlink {color: #1C377F;
                   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                 font-weight: lighter;
-                 font-size: large;
+                 font-weight: 900;
+                 font-size: 1em;
                  border-right: solid 1px black;
                  width: 384px;
-                 padding-right: 2em;
+                 padding-right: 1em;
                 }    
                  
-        .navlink:active {color: whitesmoke;}
+        .navlink:active {color: #56b7e5;}
 
        
 
         #mhome {visibility: visible;
-                width: 100%;}
+                width: 100%;
+                padding-left: 1em;}
                 
         .label {width: 150px;
+                overflow: auto;
+                height: 20px;
+                color: #1C377F;
+                font-family: 'Arial Narrow', Arial, sans-serif;
+                font-size: 1em;
+                white-space: nowrap;
+                display: flex;
+                flex-wrap: nowrap;
+                padding-left: 1em;
+              }
+
+        #price{width: 150px;
                 overflow: hidden;
-                height: 20px;}
+                height: 20px;
+                color: #56b7e5;
+                font-family: 'Arial Narrow', Arial, sans-serif;
+                font-size: 1em;
+                padding-left: 1em;
+                }
+
 
         .group {width:150px;
         }
+
+    
        
         }
 
