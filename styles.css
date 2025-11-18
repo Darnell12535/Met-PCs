@@ -80,6 +80,17 @@ font-size:3em;
 margin-bottom: 2em;
 color: #56b7e5;}
 
+.shopfront {display: flex;
+            justify-content: space-around;
+            margin-bottom: 5em;
+            }
+
+#shopFrontPic {width: 40vw;}
+
+#text {width: 40vw;}
+            
+
+
 
 
 .navlink {text-decoration: none;
@@ -375,10 +386,35 @@ flex-direction: column;}
         .group {width:150px;
         }
 
-    
-       
-        }
+        .shopfront {display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+            
+            }
 
+#shopFrontPic {width: 80vw;
+                height: 70vw;
+                background-color: #1C377F;
+                all: unset;
+                padding-top: 4em;
+                
+
+                }
+#instore {margin-top: -7.5em;
+        padding-bottom: 200px;
+         }
+
+#text {all: unset;
+        color: #1C377F;
+        width: 80vw;
+        
+}
+
+
+
+}
 
        
        
