@@ -1,0 +1,7 @@
+.socials {display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 72.8rem;
+        gap: 1em;
+        padding-right: 2em;}
