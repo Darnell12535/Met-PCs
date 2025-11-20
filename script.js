@@ -14,3 +14,14 @@ function SecondImage()
   myImage.src="images/setup3.avif";
 }
 
+
+
+const buttonRight = document.getElementById('slideR');
+    const buttonLeft = document.getElementById('slideL');
+
+    buttonRight.onclick = function () {
+      document.getElementById('new').scrollLeft += 100;
+    };
+    buttonLeft.onclick = function () {
+      document.getElementById('new').scrollLeft -= 100;
+    };
