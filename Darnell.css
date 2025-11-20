@@ -2,6 +2,68 @@
         justify-content: flex-end;
         flex-direction: row;
         align-items: center;
-        padding-left: 72.8rem;
+        padding-left: 72rem;
         gap: 1em;
-        padding-right: 2em;}
+        }
+
+.faqlist {color: #1c377f;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+.faqwel {color: #1c377f;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+.faqpara {color: #56b7e5}
+
+.accordion {
+  max-width: 600px;
+  margin-top: 150px;
+}
+
+.accordion-item {
+  background: #fff;
+  border: 1px solid #1c377f;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.accordion-header {
+  padding: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  background: #56b7e5;
+}
+
+.accordion-header:hover {
+  background: #fff;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 15px;
+  background: #fff;
+}
+
+.accordion-content.open {
+  padding: 15px;
+}
+
+.footer { 
+background-color: #1C377F;;
+height: 230px;
+width: 118.5rem;
+display: flex;
+margin-top: 50px;
+align-items: center;
+flex-direction: column;}
+
+.map {border-radius: 50px;
+margin-left: 90rem;
+margin-top: 300px;}
+
+
+
+
+
+
