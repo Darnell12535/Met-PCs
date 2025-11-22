@@ -3,7 +3,8 @@
         flex-direction: row;
         align-items: center;
         gap: 1em;
-        margin-left: 39.5rem;
+        margin-left: 38rem;
+       
          
 
 }
@@ -35,4 +36,8 @@ details[open] {
 details p {
   margin: 1em 0 0;
 }
+
+.faq-welcome h1 {text-align: center;
+background-color: #56b7e5;
+margin: 0}
 
