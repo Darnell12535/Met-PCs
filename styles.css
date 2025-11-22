@@ -173,12 +173,14 @@ height: 100;}
 
 #price {color: #56b7e5;}
 
-.footer { 
+footer { 
 background-color: #1C377F;;
 height: 230px;
 display: flex;
 align-items: center;
-flex-direction: column;}
+flex-direction: column;
+position: sticky;
+text-align: center;}
 
 #metdark {
         height: 100px;
@@ -380,12 +382,20 @@ flex-direction: column;}
         }
 
         
-        .footer {color:#ffffff;
+        footer {color:#ffffff;
         text-decoration:None;}
         .emailcolor{
                 color:#ffffff;
                 text-decoration:None;
         }
+
+        main { display: flex;
+      flex-direction: column;
+      min-height: 10vh; /* full viewport height */
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    header {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
                 
         
 

@@ -11,17 +11,14 @@
 details {
   border: 2px solid #1C377F;
   border-radius: 10px;
-  margin: 5rem auto;
+  margin: 50px auto;
   padding: 1em;
   background-color: #56b7e5;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   width: 45rem;
   font-weight: bold;
-  position: relative;
-  top: -25px;
   scroll-behavior: auto;
-  
-text-align: left;}
+  text-align: left;}
 
 summary {
   cursor: pointer;
@@ -39,5 +36,3 @@ details p {
   margin: 1em 0 0;
 }
 
-.faq-welcome {text-align: center;
-color:#1C377F}
